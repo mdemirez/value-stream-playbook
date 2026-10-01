@@ -1,0 +1,49 @@
+site_name: Value Stream Playbook
+site_description: Lean-Agile Product Development at Enterprise Scale. A practitioner's synthesis of existing work.
+site_url: https://mdemirez.github.io/value-stream-playbook/
+repo_url: https://github.com/mdemirez/value-stream-playbook
+repo_name: value-stream-playbook
+copyright: Licensed under CC BY 4.0
+
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - navigation.top
+    - toc.follow
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - tables
+  - sane_lists
+  - attr_list
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - 1. Purpose and Scope: 01-purpose-and-scope.md
+  - 2. Positioning, Influences, and Trade-offs: 02-positioning-influences-and-trade-offs.md
+  - 3. Principles: 03-principles.md
+  - 4. Operating Model: 04-operating-model.md
+  - 5. Roles and Team Topology: 05-roles-and-team-topology.md
+  - 6. Shaping Track: 06-shaping-track.md
+  - 7. Delivery Track: 07-delivery-track.md
+  - 8. Architectural Evolution: 08-architectural-evolution.md
+  - 9. Definitions of Ready and Done: 09-definitions-of-ready-and-done.md
+  - 10. Documentation Model: 10-documentation-model.md
+  - 11. References: 11-references.md

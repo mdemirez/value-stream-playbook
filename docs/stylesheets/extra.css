@@ -1,0 +1,2 @@
+/* Activity numbers are referenced in the text, so nested lists keep decimal numbering. */
+.md-typeset ol ol, .md-typeset ul ol { list-style-type: decimal; }
